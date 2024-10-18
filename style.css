@@ -35,6 +35,16 @@
          padding: 2rem;
      }
 
+      .cartao:hover .cartao_conteudo{
+         transform: rotateY(180deg);
+      }
+
+      .cartao_conteudo_pergunta,
+      .cartao_conteudo_reposta{
+         backface-visibility:hidden;
+      }
+
+      
      footer{
         background-color: cornflowerblue;
         color: black;
